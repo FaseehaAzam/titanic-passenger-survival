@@ -5,7 +5,7 @@ import joblib
 st.title("Titanic Passenger Survival Prediction")
 st.write("Enter passenger details to predict survival.")
 
-saved = joblib.load("titanic_survival_model.pkl")
+saved = joblib.load("titanic_survival_model (1).pkl")
 model = saved["model"]
 encoders = saved["encoders"]
 feature_columns = saved["feature_columns"]
